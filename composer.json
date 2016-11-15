@@ -1,0 +1,30 @@
+{
+    "name": "rsporteman/snippet",
+    "description": "provides a set of commonly traits",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Raoni Sporteman"
+        }
+    ],
+    "keywords": [
+        "rsporteman",
+        "validator"
+    ],
+    "homepage": "https://github.com/rsporteman/snippett",
+    "autoload": {
+        "psr-4": {
+            "rsporteman\\Snippet\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/PHPUnit":"^5.0"
+    },
+    "minimum-stability":"dev",
+    "prefer-stable": true,
+    "autoload-dev": {
+        "psr-4": {
+            "rsporteman\\SnippetTest\\": "test/src/"
+        }
+    }
+}
