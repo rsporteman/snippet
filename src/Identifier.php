@@ -8,7 +8,7 @@ trait Identifier
     /**
      * @var integer
      */
-    protected $id;
+    protected $id = 0;
 
     /**
      * @param $id integer
